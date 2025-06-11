@@ -26,27 +26,29 @@ export const SpotCard = memo(function SpotCard({ spot, index }: SpotCardProps) {
       }`}
       style={{ transitionDelay: `${index * 150}ms` }}
     >
-      <Card className="card-neon group overflow-hidden floating">
-        <div className="relative h-56">
+      <Card className="card-neon group overflow-hidden floating h-full flex flex-col">
+        <div className="relative h-48 sm:h-52 md:h-56 lg:h-60 overflow-hidden">
           <LazyImage
             src={spot.image}
             alt={spot.title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          <div className="absolute top-3 right-3">
-            <span className="bg-purple-600/80 text-white px-2.5 py-1 rounded-full text-xs font-medium neon-glow tracking-wider">
+          <div className="absolute top-3 right-3 z-10">
+            <span className="bg-purple-600/90 backdrop-blur-sm text-white px-3 py-1.5 rounded-full text-xs font-medium neon-glow tracking-wider shadow-lg">
               {spot.category}
             </span>
           </div>
         </div>
-        <CardHeader className="pb-3 pt-4">
-          <CardTitle className="text-xl font-semibold text-white group-hover:text-pink-300 transition-colors text-glow tracking-tight">
+        <CardHeader className="pb-2 pt-4 px-4 flex-shrink-0">
+          <CardTitle className="text-lg sm:text-xl font-semibold text-white group-hover:text-pink-300 transition-colors text-glow tracking-tight leading-tight line-clamp-2">
             {spot.title}
           </CardTitle>
         </CardHeader>
-        <CardContent>
-          <CardDescription className="text-gray-400 text-sm leading-relaxed">{spot.description}</CardDescription>
+        <CardContent className="px-4 pb-4 flex-grow">
+          <CardDescription className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+            {spot.description}
+          </CardDescription>
         </CardContent>
       </Card>
     </div>

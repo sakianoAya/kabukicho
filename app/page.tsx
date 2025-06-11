@@ -94,7 +94,7 @@ export default function KabukichoWebsite() {
     () => [
       {
         id: 1,
-        src: "/images/gallery/kabukicho-neon-street.png",
+        src: "/パチンコ2.jpg",
         title: "ネオン煌めく一番街",
         description: "歌舞伎町の象徴的なゲートと、奥へと続くネオンの洪水。",
         category: "neon",
@@ -102,7 +102,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 2,
-        src: "/images/gallery/shinjuku-golden-gai.png",
+        src: "/IMG_5789.jpg",
         title: "昭和ノスタルジー ゴールデン街",
         description: "狭い路地にひしめく小さなバーが、独特の雰囲気を醸し出す。",
         category: "street",
@@ -110,7 +110,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 3,
-        src: "/images/gallery/kabukicho-tower-night-view.png",
+        src: "/パチンコ2.jpg",
         title: "歌舞伎町タワーと夜景",
         description: "新たなランドマーク、歌舞伎町タワーが夜空に聳え立つ。",
         category: "architecture",
@@ -118,7 +118,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 4,
-        src: "/images/gallery/robot-restaurant-entrance.png",
+        src: "/パチンコ2.jpg",
         title: "ロボットレストランの入口",
         description: "ド派手な外観が目を引く、世界的にも有名なエンタメスポット。",
         category: "neon",
@@ -126,7 +126,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 5,
-        src: "/images/gallery/omoide-yokocho-lanterns.png",
+        src: "/パチンコ2.jpg",
         title: "思い出横丁の赤提灯",
         description: "煙と活気に包まれた、昔ながらの飲み屋街。",
         category: "street",
@@ -134,7 +134,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 6,
-        src: "/images/gallery/shinjuku-nightscape-tokyo.png",
+        src: "/パチンコ2.jpg",
         title: "新宿摩天楼の夜景",
         description: "高層ビル群が織りなす、息をのむような東京の夜景。",
         category: "night",
@@ -142,7 +142,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 7,
-        src: "/images/gallery/kabukicho-food-stall.png",
+        src: "/パチンコ2.jpg",
         title: "深夜の屋台グルメ",
         description: "夜遅くまで賑わう屋台で味わう、絶品B級グルメ。",
         category: "street",
@@ -150,11 +150,43 @@ export default function KabukichoWebsite() {
       },
       {
         id: 8,
-        src: "/images/gallery/neon-sign-collection.png",
+        src: "/パチンコ2.jpg",
         title: "ネオンサインコレクション",
         description: "歌舞伎町を彩る、個性的でアーティスティックなネオンサインの数々。",
         category: "neon",
         location: "歌舞伎町各所",
+      },
+      {
+        id: 9,
+        src: "/パチンコ2.jpg",
+        title: "深夜の歌舞伎町",
+        description: "夜が更けても眠らない街の活気あふれる風景。",
+        category: "night",
+        location: "歌舞伎町中央通り",
+      },
+      {
+        id: 10,
+        src: "/パチンコ2.jpg",
+        title: "ゴールデン街の路地",
+        description: "狭い路地に並ぶ個性的な店舗群。",
+        category: "street",
+        location: "新宿ゴールデン街",
+      },
+      {
+        id: 11,
+        src: "/パチンコ2.jpg",
+        title: "タワーからの眺望",
+        description: "歌舞伎町タワーから見下ろす夜の街並み。",
+        category: "architecture",
+        location: "歌舞伎町タワー展望台",
+      },
+      {
+        id: 12,
+        src: "/パチンコ2.jpg",
+        title: "エンタメの殿堂",
+        description: "色とりどりのネオンが踊る、エンターテイメントの聖地。",
+        category: "neon",
+        location: "歌舞伎町エンタメエリア",
       },
     ],
     [],
@@ -166,19 +198,19 @@ export default function KabukichoWebsite() {
       {
         name: "新宿ゴールデン街",
         description: "昭和の面影を残す、個性的なバーが集まるエリア。",
-        image: "/images/spots/golden-gai-small.png",
+        image: "/IMG_5789.jpg",
         rating: 4.8,
       },
       {
         name: "歌舞伎町タワー",
         description: "エンタメ複合施設。ホテルや映画館、ライブホールも。",
-        image: "/images/spots/kabukicho-tower-small.png",
+        image: "/パチンコ2.jpg",
         rating: 4.7,
       },
       {
         name: "思い出横丁",
         description: "焼き鳥の煙が立ち込める、風情ある飲み屋街。",
-        image: "/images/spots/omoide-yokocho-small.png",
+        image: "/パチンコ2.jpg",
         rating: 4.6,
       },
     ],
@@ -191,20 +223,38 @@ export default function KabukichoWebsite() {
       {
         title: "サムライミュージアム",
         description: "日本の武士道精神に触れる。甲冑試着や殺陣ショーも人気。",
-        image: "/images/spots/samurai-museum.png",
+        image: "/images/spots/museum.jpg",
         category: "文化体験",
       },
       {
         title: "テルマー湯",
         description: "都会のオアシス。天然温泉や岩盤浴でリフレッシュ。",
-        image: "/images/spots/thermae-yu.png",
+        image: "/images/spots/oyu.jpg",
         category: "リラクゼーション",
       },
+      // {
+      //   title: "VR ZONE SHINJUKU跡地周辺",
+      //   description: "最新VRやエンタメが集まるエリア。常に新しい刺激が。",
+      //   image: "/パチンコ2.jpg",
+      //   category: "エンターテイメント",
+      // },
       {
-        title: "VR ZONE SHINJUKU跡地周辺",
-        description: "最新VRやエンタメが集まるエリア。常に新しい刺激が。",
-        image: "/images/spots/vr-zone-area.png",
-        category: "エンターテイメント",
+        title: "新宿ゴールデン街",
+        description: "昭和の面影を残す、個性的なバーが集まるエリア。深夜まで賑わう大人の社交場。",
+        image: "/IMG_5789.jpg",
+        category: "ナイトライフ",
+      },
+      {
+        title: "歌舞伎町タワー",
+        description: "エンタメ複合施設。ホテルや映画館、ライブホールも。新時代の歌舞伎町のシンボル。",
+        image: "/パチンコ2.jpg",
+        category: "ランドマーク",
+      },
+      {
+        title: "思い出横丁",
+        description: "焼き鳥の煙が立ち込める、風情ある飲み屋街。昭和レトロな雰囲気が魅力。",
+        image: "/images/spots/omoi.jpg",
+        category: "グルメ",
       },
     ],
     [],
@@ -379,16 +429,14 @@ export default function KabukichoWebsite() {
       <div className="xl:ml-80 relative z-10">
         <main>
           {/* Hero Section - Pure Black Background */}
-          <section
-            id="hero"
-            className="relative h-screen flex items-center justify-center text-center px-6 lg:px-12 bg-black"
-          >
+          {/* Hero Section - 优化间距和过渡 */}
+          <section id="hero" className="hero-section relative text-center section-padding bg-black">
             {/* Hero Content */}
             <div className="relative z-10 max-w-4xl mx-auto">
-              <h2 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-8 leading-tight tracking-tighter">
+              <h2 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-8 md:mb-12 lg:mb-16 leading-tight tracking-tighter">
                 {/* Enhanced with customizable properties */}
                 <NeonTubeTextLight
-                  className="block mb-2 heading-orbitron-bold"
+                  className="block mb-4 md:mb-6 lg:mb-8 heading-orbitron-bold"
                   color="pink"
                   fontFamily="monoton"
                   animationType="breathing"
@@ -406,7 +454,7 @@ export default function KabukichoWebsite() {
                   歌舞伎町へ
                 </NeonTubeTextLightBlue>
               </h2>
-              <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed font-light">
+              <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 md:mb-16 lg:mb-20 max-w-2xl mx-auto leading-relaxed font-light">
                 東京の夜を支配する、光と影の迷宮。
                 <br className="hidden md:block" />
                 未知なる体験が、あなたを待っている。
@@ -421,19 +469,26 @@ export default function KabukichoWebsite() {
                 夜を探検する
               </NeonButton>
             </div>
+
+            {/* 添加向下滚动指示器 */}
+            <div className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
+              <div className="w-6 h-10 border-2 border-purple-500/50 rounded-full flex justify-center">
+                <div className="w-1 h-3 bg-purple-500 rounded-full mt-2 animate-pulse"></div>
+              </div>
+            </div>
           </section>
 
           {/* Content Sections */}
-          <div className="px-6 md:px-10 lg:px-16 xl:px-20 py-16 md:py-24 space-y-32 md:space-y-40 bg-black">
+          <div className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-20 md:py-28 lg:py-32 space-y-40 md:space-y-48 lg:space-y-56 xl:space-y-64 bg-black">
             {/* History Section */}
             <ParallaxSection speed={0.1}>
               <section id="history" className="max-w-5xl mx-auto">
-                <h2 className="section-title text-purple-300 mb-12 heading-orbitron">
+                <h2 className="section-title text-purple-300 mb-16 md:mb-20 lg:mb-24 heading-orbitron">
                   <History className="inline-block w-10 h-10 mr-4" />
                   歌舞伎町の歴史：再生と変貌の物語
                 </h2>
                 <Card className="card-neon">
-                  <CardContent className="p-10 md:p-12 text-gray-300 leading-relaxed space-y-8 text-lg md:text-xl">
+                  <CardContent className="p-8 md:p-12 lg:p-16 text-gray-300 leading-relaxed space-y-8 text-lg md:text-xl">
                     <p className="first-letter:text-5xl first-letter:font-bold first-letter:text-pink-400 first-letter:float-left first-letter:mr-3 first-letter:mt-1">
                       かつて湿地帯だったこの地は、戦後の灰燼の中から「文化の街」を目指して再生されました。1948年、歌舞伎座誘致計画にちなんで「歌舞伎町」と命名。しかし、財政難で歌舞伎座は幻となり、代わりに映画館やスケート場が建設され、エンターテイメントの街としての一歩を踏み出します。
                     </p>
@@ -454,16 +509,16 @@ export default function KabukichoWebsite() {
             {/* Nightlife Section */}
             <ParallaxSection speed={0.15}>
               <section id="nightlife" className="max-w-6xl mx-auto">
-                <h2 className="section-title text-pink-300 mb-12 heading-orbitron">
+                <h2 className="section-title text-pink-300 mb-16 md:mb-20 lg:mb-24 heading-orbitron">
                   <Lightbulb className="inline-block w-10 h-10 mr-4" />
                   夜のエンターテイメント：五感を刺激する体験
                 </h2>
-                <p className="text-center text-gray-400 text-lg md:text-xl mb-16 max-w-3xl mx-auto leading-relaxed">
+                <p className="text-center text-gray-400 text-lg md:text-xl mb-20 md:mb-24 lg:mb-28 max-w-3xl mx-auto leading-relaxed">
                   歌舞伎町の夜は、あらゆる感覚を刺激する体験で満ちています。
                   <br />
                   伝統と革新が交差する、唯一無二のエンターテイメント空間をご紹介します。
                 </p>
-                <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 auto-rows-fr">
                   {spotCards.map((spot, index) => (
                     <SpotCardComponent key={index} spot={spot} index={index} />
                   ))}
@@ -474,7 +529,7 @@ export default function KabukichoWebsite() {
             {/* Gourmet Section */}
             <ParallaxSection speed={0.08}>
               <section id="gourmet" className="max-w-5xl mx-auto">
-                <h2 className="section-title text-blue-300 mb-12 heading-orbitron">
+                <h2 className="section-title text-blue-300 mb-16 md:mb-20 lg:mb-24 heading-orbitron">
                   <Utensils className="inline-block w-10 h-10 mr-4" />
                   絶品グルメ：眠らない街の胃袋を満たす
                 </h2>
@@ -484,7 +539,7 @@ export default function KabukichoWebsite() {
                       <div className="lg:flex">
                         <div className="lg:w-2/5">
                           <LazyImage
-                            src="/images/gourmet/ramen-night.png"
+                            src="/パチンコ2.jpg"
                             alt="深夜のラーメン"
                             className="w-full h-64 lg:h-full object-cover neon-glow-blue"
                           />
@@ -517,9 +572,9 @@ export default function KabukichoWebsite() {
 
             {/* Gallery Section */}
             <ParallaxSection speed={0.12}>
-              <section id="gallery" className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                  <h2 className="section-title text-pink-400 mb-6 heading-orbitron">
+              <section id="gallery" className="max-w-8xl mx-auto">
+                <div className="text-center mb-20 md:mb-24 lg:mb-28">
+                  <h2 className="section-title text-pink-400 mb-8 md:mb-10 lg:mb-12 heading-orbitron">
                     <Camera className="inline-block w-10 h-10 mr-4" />
                     フォトギャラリー：歌舞伎町の万華鏡
                   </h2>
@@ -532,28 +587,44 @@ export default function KabukichoWebsite() {
                   </p>
                 </div>
 
-                <div className="flex flex-wrap justify-center gap-4 mb-16">
-                  {galleryCategories.map((category) => (
-                    <button
-                      key={category.id}
-                      onClick={() => setGalleryCategory(category.id)}
-                      className={`px-6 py-3 rounded-full transition-all duration-300 text-sm font-medium tracking-wider bg-black
-                        ${
-                          galleryCategory === category.id
-                            ? "border border-pink-400 shadow-[0_0_10px_rgba(244,114,182,0.5),0_0_20px_rgba(244,114,182,0.3)]"
-                            : "border border-transparent hover:border-pink-400 hover:shadow-[0_0_10px_rgba(244,114,182,0.5),0_0_20px_rgba(244,114,182,0.3)]"
-                        }`}
-                      aria-pressed={galleryCategory === category.id}
-                    >
-                      <span className="mr-2 text-base" aria-hidden="true">
-                        {category.icon}
-                      </span>
-                      {category.label}
-                    </button>
-                  ))}
+                {/* 分類篩選按鈕 - 優化布局 */}
+                <div className="mb-20 md:mb-24 lg:mb-28">
+                  <div className="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-4xl mx-auto">
+                    {galleryCategories.map((category) => (
+                      <button
+                        key={category.id}
+                        onClick={() => setGalleryCategory(category.id)}
+                        className={`px-4 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-sm font-medium tracking-wider bg-black border backdrop-blur-sm
+                          ${
+                            galleryCategory === category.id
+                              ? "border-pink-400 text-pink-300 shadow-[0_0_15px_rgba(244,114,182,0.5),0_0_25px_rgba(244,114,182,0.3)] scale-105"
+                              : "border-gray-600 text-gray-300 hover:border-pink-400 hover:text-pink-300 hover:shadow-[0_0_10px_rgba(244,114,182,0.3)] hover:scale-105"
+                          }`}
+                        aria-pressed={galleryCategory === category.id}
+                      >
+                        <span className="mr-2 text-base" aria-hidden="true">
+                          {category.icon}
+                        </span>
+                        <span className="whitespace-nowrap">{category.label}</span>
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* 顯示當前分類的圖片數量 */}
+                  <div className="text-center mt-6">
+                    <p className="text-gray-500 text-sm">
+                      {filteredImages.length} 枚の写真
+                      {galleryCategory !== "all" && (
+                        <span className="ml-2 text-pink-400">
+                          ({galleryCategories.find((cat) => cat.id === galleryCategory)?.label})
+                        </span>
+                      )}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+                {/* 圖片網格 - 優化響應式布局 */}
+                <div className="gallery-grid">
                   {filteredImages.map((image, index) => (
                     <GalleryImageComponent key={image.id} image={image} index={index} openImageModal={openImageModal} />
                   ))}
@@ -564,12 +635,12 @@ export default function KabukichoWebsite() {
             {/* Hidden Spots Section */}
             <ParallaxSection speed={0.05}>
               <section id="hidden" className="max-w-5xl mx-auto">
-                <h2 className="section-title text-green-300 mb-12 heading-orbitron">
+                <h2 className="section-title text-green-300 mb-16 md:mb-20 lg:mb-24 heading-orbitron">
                   <Search className="inline-block w-10 h-10 mr-4" />
                   秘密の場所：通だけが知る歌舞伎町
                 </h2>
                 <Card className="card-neon neon-glow-blue overflow-hidden">
-                  <CardContent className="p-10 md:p-12 text-gray-300 leading-relaxed space-y-8 text-lg md:text-xl">
+                  <CardContent className="p-8 md:p-12 lg:p-16 text-gray-300 leading-relaxed space-y-8 text-lg md:text-xl">
                     <p className="first-letter:text-5xl first-letter:font-bold first-letter:text-green-400 first-letter:float-left first-letter:mr-3 first-letter:mt-1">
                       喧騒の裏には、まだ知られざる歌舞伎町の顔が隠されています。一本路地を入れば、そこはまるで別世界。
                     </p>
