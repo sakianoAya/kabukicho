@@ -468,7 +468,7 @@ export default function KabukichoWebsite() {
                 variant="purple"
                 size="lg"
                 onClick={() => scrollToSection("nightlife")}
-                className=" mt-8 rounded-full  flex items-center animate-breathing"
+                className=" mt-8 rounded-full   animate-breathing"
               >
                 
                 夜を探検する
