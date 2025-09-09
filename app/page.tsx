@@ -94,7 +94,7 @@ export default function KabukichoWebsite() {
     () => [
       {
         id: 1,
-        src: "/パチンコ2.jpg",
+        src: "/深夜のラーメン.jpg",
         title: "ネオン煌めく一番街",
         description: "歌舞伎町の象徴的なゲートと、奥へと続くネオンの洪水。",
         category: "neon",
@@ -110,7 +110,7 @@ export default function KabukichoWebsite() {
       },
       {
         id: 3,
-        src: "/パチンコ2.jpg",
+        src: "/夜景.jpg",
         title: "歌舞伎町タワーと夜景",
         description: "新たなランドマーク、歌舞伎町タワーが夜空に聳え立つ。",
         category: "architecture",
@@ -118,39 +118,32 @@ export default function KabukichoWebsite() {
       },
       {
         id: 4,
-        src: "/パチンコ2.jpg",
+        src: "/ロボット.jpg",
         title: "ロボットレストランの入口",
-        description: "ド派手な外観が目を引く、世界的にも有名なエンタメスポット。",
+        description: "ド派手な外観が目を引く、世界的にも有名なエンタメスポット。※現在休業中",
         category: "neon",
         location: "ロボットレストラン",
       },
       {
         id: 5,
-        src: "/パチンコ2.jpg",
+        src: "/赤提灯.jpg",
         title: "思い出横丁の赤提灯",
         description: "煙と活気に包まれた、昔ながらの飲み屋街。",
         category: "street",
         location: "思い出横丁",
       },
-      {
-        id: 6,
-        src: "/パチンコ2.jpg",
-        title: "新宿摩天楼の夜景",
-        description: "高層ビル群が織りなす、息をのむような東京の夜景。",
-        category: "night",
-        location: "東京都庁展望室付近",
-      },
-      {
-        id: 7,
-        src: "/パチンコ2.jpg",
-        title: "深夜の屋台グルメ",
-        description: "夜遅くまで賑わう屋台で味わう、絶品B級グルメ。",
-        category: "street",
-        location: "歌舞伎町エリア",
-      },
+      
+      // {
+      //   id: 7,
+      //   src: "/パチンコ2.jpg",
+      //   title: "深夜の屋台グルメ",
+      //   description: "夜遅くまで賑わう屋台で味わう、絶品B級グルメ。",
+      //   category: "street",
+      //   location: "歌舞伎町エリア",
+      // },
       {
         id: 8,
-        src: "/パチンコ2.jpg",
+        src: "/ネオン.jpg",
         title: "ネオンサインコレクション",
         description: "歌舞伎町を彩る、個性的でアーティスティックなネオンサインの数々。",
         category: "neon",
@@ -172,22 +165,22 @@ export default function KabukichoWebsite() {
         category: "street",
         location: "新宿ゴールデン街",
       },
-      {
-        id: 11,
-        src: "/パチンコ2.jpg",
-        title: "タワーからの眺望",
-        description: "歌舞伎町タワーから見下ろす夜の街並み。",
-        category: "architecture",
-        location: "歌舞伎町タワー展望台",
-      },
-      {
-        id: 12,
-        src: "/パチンコ2.jpg",
-        title: "エンタメの殿堂",
-        description: "色とりどりのネオンが踊る、エンターテイメントの聖地。",
-        category: "neon",
-        location: "歌舞伎町エンタメエリア",
-      },
+      // {
+      //   id: 11,
+      //   src: "/パチンコ2.jpg",
+      //   title: "タワーからの眺望",
+      //   description: "歌舞伎町タワーから見下ろす夜の街並み。",
+      //   category: "architecture",
+      //   location: "歌舞伎町タワー展望台",
+      // },
+      // {
+      //   id: 12,
+      //   src: "/パチンコ2.jpg",
+      //   title: "エンタメの殿堂",
+      //   description: "色とりどりのネオンが踊る、エンターテイメントの聖地。",
+      //   category: "neon",
+      //   location: "歌舞伎町エンタメエリア",
+      // },
     ],
     [],
   )
@@ -222,7 +215,7 @@ export default function KabukichoWebsite() {
     () => [
       {
         title: "サムライミュージアム",
-        description: "日本の武士道精神に触れる。甲冑試着や殺陣ショーも人気。",
+        description: "日本の武士道精神に触れる。甲冑試着や殺陣ショーも人気。 ※現在休業中",
         image: "/images/spots/museum.jpg",
         category: "文化体験",
       },
@@ -247,7 +240,7 @@ export default function KabukichoWebsite() {
       {
         title: "歌舞伎町タワー",
         description: "エンタメ複合施設。ホテルや映画館、ライブホールも。新時代の歌舞伎町のシンボル。",
-        image: "/パチンコ2.jpg",
+        image: "/歌舞伎町タワー.jpg",
         category: "ランドマーク",
       },
       {
@@ -256,6 +249,18 @@ export default function KabukichoWebsite() {
         image: "/images/spots/omoi.jpg",
         category: "グルメ",
       },
+//       {
+//   // "title": "SHOW CLUB nest",
+//   // "description": "歌舞伎町でも異彩を放つ、本格的なポールダンスやバーレスクショーが楽しめる大人のエンターテイメントクラブ。きらびやかなステージと迫力あるパフォーマンスが魅力。",
+//   // "image": "",
+//   // "category": "エンターテイメント"
+// },
+// {
+//   // "title": "ひげガール",
+//   // "description": "個性豊かなニューハーフタレントたちが繰り広げる、抱腹絶倒のトークと華やかなショーが大人気の老舗ショーパブ。笑いと感動に満ちた、忘れられない夜を約束します。",
+//   // "image": "",
+//   // "category": "エンターテイメント"
+// }
     ],
     [],
   )
@@ -463,9 +468,9 @@ export default function KabukichoWebsite() {
                 variant="purple"
                 size="lg"
                 onClick={() => scrollToSection("nightlife")}
-                className="mt-8 rounded-full"
+                className=" mt-8 rounded-full  flex items-center animate-breathing"
               >
-                <Sparkles className="w-6 h-6 mr-3" />
+                
                 夜を探検する
               </NeonButton>
             </div>

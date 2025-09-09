@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Neon Text Component - Modern React UI",
+  title: "歌舞伎町",
   description: "A responsive and customizable neon text component for modern React applications",
     generator: 'v0.dev'
 }
